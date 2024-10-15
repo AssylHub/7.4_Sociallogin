@@ -1,0 +1,96 @@
+@import url(reset.css);
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat';
+    background-color: #f2f8fd;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    /* height: 270px; */
+    background: rgb(60,76,124);
+    background: linear-gradient(243deg, rgba(60,76,124,1) 0%, rgba(32,66,189,1) 0%, rgba(76,110,222,1) 100%);
+    padding: 100px;
+    
+    border-radius: 20px;
+
+}
+
+.wrapper {
+    border: 20px #dce6fa solid;
+    /* border-radius: 20px; */
+}
+
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* padding: 40px; */
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.description {
+
+}
+
+
+.input {
+    position: relative;
+}
+
+.input input{
+    width: 100%;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: #7e94e1;
+}
+
+.input input::placeholder {
+    color: #fff;
+}
+
+.input img {
+
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.people {
+    
+}
+
+.person {
+    position: absolute;
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+    bottom: -45px;
+    left: 245px;
+}
+
+.person img {
+    margin-right: 40px;
+    width: 70px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
